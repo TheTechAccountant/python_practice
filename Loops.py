@@ -1,6 +1,8 @@
-a = """all the apples are green"""
-b= """RHINOS ARE FISH"""
+if __name__ == '__main__':
+    n = int(input())
 
-print(a.capitalize())
-print(b.casefold())
-print (a.endswith("green"))
+i = 0
+
+while i<n:
+    print(i*i)
+    i += 1
